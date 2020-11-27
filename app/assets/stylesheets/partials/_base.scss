@@ -98,3 +98,15 @@ nav {
     left: 90%;
     transform: translateX(-70%);
 }
+
+.service > p,
+.work > p,
+.contact > p {
+    color: #403e3e;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 0px;
+    padding-bottom: 20px;
+    margin-bottom: 5%;
+    text-align: center;
+}

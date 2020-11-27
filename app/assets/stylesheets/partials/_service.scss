@@ -1,0 +1,37 @@
+.service {
+    height: 500px;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 5% 10% 0px 10%;
+}
+.box-1,.box-2,.box-3 {
+    width: 300px;
+    height: 320px;
+    padding: 0px 1%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    & img {
+        width: 100px;
+        height: 100px;
+    }
+
+    & p:nth-child(1){
+        color: #3e3d3d;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    & p:nth-child(3) {
+        text-align: left;
+    }
+}
+.box-container {
+    display: flex;
+    justify-content: space-between;
+}
