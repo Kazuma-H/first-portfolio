@@ -1,0 +1,57 @@
+.about-container {
+    width: 65%;
+    height: 330px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    display: flex;
+    margin: -7% auto 20px auto;position: relative;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px 0px;
+    max-width: 900px;
+}
+
+.profile-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.about-text {
+    width: 500px;
+
+    & p:nth-child(1) {
+        color: #403e3e;
+        font-weight: bold;
+        font-size: 23px;
+        line-height: 0px;
+        padding-bottom: 5px;
+    }
+
+    & p:nth-child(2) {
+        color: #3e3d3d;
+        font-size: 13px;
+        font-weight: bold;
+        line-height: 10px;
+    }
+
+    & p:nth-child(3) {
+        color: #7e7d7d;
+        font-size: 16px;
+
+        & >  span {
+            font-size: 30px;
+        }
+    } 
+}
+
+.about-text button {
+    width: 130px;
+    height: 42px;
+    color: #ffffff;
+    font-size: 14px;
+    outline: none;
+    background-color: #202323;
+}
